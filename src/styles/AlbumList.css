@@ -1,0 +1,90 @@
+.album-list-container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.album-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.album-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.album-info {
+  flex: 1;
+}
+
+.album-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.add-track-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-decoration: none;
+  background-color: #e9ecef;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.add-track-link:hover {
+  text-decoration: none;
+  background-color: #d6d8db;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px; 
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px; 
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.success-message {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #dc3545;
+}
+
+.toggle-tracks-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px; 
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px; 
+  transition: background-color 0.3s ease;
+}
+
+.toggle-tracks-button:hover {
+  background-color: #0056b3;
+}
