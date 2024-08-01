@@ -16,7 +16,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 1. Clone o repositório para sua máquina local:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone (https://github.com/SenaFernando/Frontend_.git)
     ```
 
 2. Navegue até o diretório do projeto:
